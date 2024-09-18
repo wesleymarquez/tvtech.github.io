@@ -1,0 +1,126 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    margin: 10px;
+    background-image: linear-gradient(-90deg, rgb(24, 20, 20), rgb(21, 29, 37));
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do menu */
+.menu-top {
+    background-color: hwb(0 0% 99%);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 4px;
+    box-shadow: 5px 4px 5px 0px rgba(24, 114, 136, 0.75);
+}
+
+.menu-top ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-top li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-top a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+    border-radius: 8px;
+}
+
+.menu-top a:hover {
+    background-color: #11ca30;
+}
+
+/* Estilo da imagem do banner */
+.background {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.background img {
+    max-width: 1200%;
+    height: auto;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+/* Estilo dos planos */
+.plano-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.plano-prime, .plano-sigma {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+    box-shadow: 5px 4px 5px 0px rgba(24, 114, 136, 0.75);
+}
+
+.plano-prime h2, .plano-sigma h2 {
+    margin-bottom: 10px;
+}
+
+/* Estilo da seção de botões */
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Estilo dos botões */
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0a89a0;
+}
+
+/* Estilo do fieldset */
+fieldset {
+    border: 2px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 29px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+fieldset:hover {
+    background-color: rgb(6, 7, 7);
+}
